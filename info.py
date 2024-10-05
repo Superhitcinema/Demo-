@@ -15,12 +15,12 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27696177'))
 API_HASH = environ.get('API_HASH', '0c44906a4feff3b947db76dfa7c57d88')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6881297643:AAFMSftyxYTLv337pTJP6GdZX73YUn_eGI4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7498158728:AAEw8ru-tBfoA3Szv3SsCRPFcC1AMl6mzs0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '852190589').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Super4crazy786") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002283635556'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002116984433'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MdiskGroup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002196009754').split()]
 #---------------------------------------------------------------
@@ -52,8 +52,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "5174613668dc507cfe3b8b80b3c5a1b0
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "5174613668dc507cfe3b8b80b3c5a1b0f718278c")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "10800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "10800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
